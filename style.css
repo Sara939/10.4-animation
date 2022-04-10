@@ -73,22 +73,43 @@ to {background-color: pink; float: right;}
     margin-top: 20vh;
     margin-bottom: 10x;
 }
+
+
+.last{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: ani;
+    animation-duration: 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+
+}
+
+
 @keyframes ani{
-    0% {background-color: red;}
+    0% {background-color: red; transform: translateY(0);}
      25% {background-color: yellow;}
      50% {background-color: green;}
      100% {background-color: rgb(27, 177, 188);
-    transform: translateY(-500px);}
+        transform: translateY(-400px);}
  }
+ .shadow img{
+     height: 200px;
+     width: 200px;
+     display: block;
+     animation-name: sh;
+     animation-duration: 5s;
+     animation-delay: 2s;
+     animation-fill-mode: backwards;
+    
+ }
+@keyframes sh{
+    from {filter: drop-shadow(40px 20px 0px black);}
+    to {filter: drop-shadow(40px 20px 100px yellow);}
+}
  
-.last{
-     height: 100px;
-     width: 100px;
-     animation-name: ani;
-     background-color: red;
-     transform: translateY(0px);
-     transition-duration: 0s;  
- }
+
 
 
 
