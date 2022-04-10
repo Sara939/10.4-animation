@@ -101,7 +101,8 @@ to {background-color: pink; float: right;}
      animation-name: sh;
      animation-duration: 5s;
      animation-delay: 2s;
-     animation-fill-mode: backwards;
+     animation-direction: alternate-reverse;
+     
     
  }
 @keyframes sh{
