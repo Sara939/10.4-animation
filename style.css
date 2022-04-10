@@ -1,0 +1,95 @@
+@keyframes mine{
+from {background-color: blue;}
+to {background-color: green;}
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    animation-name: mine;
+    background-color: blue;
+    animation-duration: 5s;
+    margin-bottom: 10px;
+}
+
+@keyframes new{
+       0% {background-color: blue;}
+        25% {background-color: green;}
+        50% {background-color: yellow;}
+        100% {background-color: red;}
+    }
+    
+.one{
+        height: 100px;
+        width: 100px;
+        animation-name: new;
+        background-color: blue;
+        animation-duration: 5s;
+        margin-bottom: 10px;
+    }
+
+@keyframes ali{
+    from {filter: opacity(100%);}
+    to {filter: opacity(0%);}
+}
+    
+.pic{
+    animation-name: ali;
+    animation-duration: 5s;
+    
+}
+.pic img{
+    width: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+@keyframes ali2{
+    from {filter: sepia(0%);}
+    to {filter: sepia(100%);}
+}
+    
+.pic2{
+    animation-name: ali2;
+    animation-duration: 5s;
+}
+.pic2 img{
+    width: 100px;
+    width: 100px;
+    margin-bottom: 10x;
+}
+
+@keyframes ground{
+from { background-color: orange; float: left;}
+to {background-color: pink; float: right;}    
+}
+
+.back{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    float: left;
+    animation-name: ground;
+    margin-top: 20vh;
+    margin-bottom: 10x;
+}
+@keyframes ani{
+    0% {background-color: red;}
+     25% {background-color: yellow;}
+     50% {background-color: green;}
+     100% {background-color: rgb(27, 177, 188);
+    transform: translateY(-500px);}
+ }
+ 
+.last{
+     height: 100px;
+     width: 100px;
+     animation-name: ani;
+     background-color: red;
+     transform: translateY(0px);
+     transition-duration: 0s;  
+ }
+
+
+
+
